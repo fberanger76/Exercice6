@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <html lang="fr">
+      <head>
+    <title>Exercice 6</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css"> 
+      </head>
+        <body>
+      <table>
+
+    <tbody> 
+    <tr>
+        <form>
+          <p id="tableau1"> Votre identité <br><br>
+            <label for="nom">1. Nom :
+              <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="20" /> </label><br>
+            <label for="prenom">2. Prénom :
+              <input type="text" name="prenom" id="prenom" placeholder="Prénom" size="30" maxlength="20" /></label><br>
+            <label for="adresse mail">3. Adresse mail :
+              <input type="email" name="adresse mail" id="adresse mail" placeholder="Adresse mail" size="30" maxlength="50" /></label>
+          </p>
+    </tr>
+
+    <tr>
+        <p id="tableau2">Adresse de livraison <br><br>
+          <label for="adresse">1. Adresse :
+            <input type="text" name="adresse" id="adresse" placeholder="" size="30" maxlength="100" /></label><br>
+          <label for="code postal">2. Code Postal :
+            <input type="text" name="code postal" id="code postal" placeholder="Code postal" size="30" maxlength="5" /></label><br>
+          <label for="ville">3. Ville :
+            <input type="text" name="ville" id="ville" placeholder="Ville" size="30" maxlength="30" /></label>
+        </p>
+  </tr>
+
+  <tr>
+      <p id="tableau3">Information de règlement <br><br>
+        1. Type de carte bancaire :<br>
+          <input type="radio" name="carte bancaire" id="visa" value="visa" />
+        <label for="visa">VISA</label><br>
+          <input type="radio" name="carte bancaire" id="mastercard" value="mastercard" />
+        <label for="mastercard">Mastercard</label><br>
+        <label for="numero carte">2. Numéro de carte :
+          <input type="text" name="numero carte" id="numero carte" placeholder="Numéro de carte" size="30" maxlength="16" /></label><br>
+        <label for="code securite">3. Code de sécurité :
+          <input type="text" name="code securite" id="code securite" placeholder="Code de sécurité" size="30" maxlength="3" /></label><br>
+        <label for="titulaire">4. Nom du titulaire :
+          <input type="text" name="titulaire" id="titulaire" placeholder="Nom du titulaire" size="30" maxlength="50" /></label><br>
+      </p>
+      </form>
+</tr>
+<input type="submit" value="J'achète" />
+
+</tbody>
+</table>
+</body>
+</html>

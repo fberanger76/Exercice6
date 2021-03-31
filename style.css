@@ -1,0 +1,23 @@
+table {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:grey;
+    border-collapse: collapse;
+    width:30%;
+    }
+   p, form { 
+    border-width:1px;
+    border-style:solid; 
+    border-color:grey;
+    border-collapse: collapse;
+    width:40%;
+    }
+    #tableau1 { 
+        background-color: rgb(79, 122, 201);
+    }
+    #tableau2 { 
+        background-color: purple;
+    }
+    #tableau3 { 
+        background-color: rgb(197, 9, 97);
+    }
